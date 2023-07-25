@@ -9,7 +9,7 @@ function alternate() {
   }
   isCoder = !isCoder; // Toggle the state
 
-  setTimeout(alternate, 3000); // Schedule the next change after 5 seconds
+  setTimeout(alternate, 2000); // Schedule the next change after 5 seconds
 }
 alternate();
 document.querySelector(".sbm.btn.btn-primary").addEventListener("click",()=>{
@@ -23,4 +23,4 @@ document.querySelector(".sbm.btn.btn-primary").addEventListener("click",()=>{
     document.querySelector(".write").value="";
     // document.querySelector(".main").style.background="White";
     // document.querySelector(".thanks").innerHTML=`Thanks for contacting ${fn}`;
-})
+});
