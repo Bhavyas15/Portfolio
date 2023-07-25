@@ -178,8 +178,8 @@
 /* about */
 
 .aside{
-/*     margin-top: -40px; */
-    min-height: 140vh;
+    margin-top: 40px;
+    min-height: 160vh;
 }
 .acont{
     margin-top: -5rem;
