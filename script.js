@@ -3,13 +3,13 @@ let isCoder = true;
 function alternate() {
   const element = document.querySelector(".change");
   if (isCoder) {
-    element.value = "I am a Coder";
+    element.textContent = "I am a Coder";
   } else {
     element.textContent = "I am a Developer";
   }
   isCoder = !isCoder; // Toggle the state
 
-  setTimeout(alternate, 2000); // Schedule the next change after 5 seconds
+  setTimeout(alternate, 3000);
 }
 alternate();
 document.querySelector(".sbm.btn.btn-primary").addEventListener("click",()=>{
